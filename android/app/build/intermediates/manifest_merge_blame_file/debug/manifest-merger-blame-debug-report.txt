@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rncommetchat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /home/novelty/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /home/novelty/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:12:5-79
+14-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:13:5-68
+15-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:13:22-65
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:14:5-65
+16-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:14:22-62
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:16:5-60
+18-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:16:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:17:5-70
+19-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:17:19-67
+20
+21    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+21-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:20:5-75
+21-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:20:22-72
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:21:5-80
+22-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:21:22-77
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:22:5-71
+23-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:22:22-68
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:24:5-68
+24-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:26:5-81
+25-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:26:22-78
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27
+28    <application
+28-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:6:5-25:19
+29        android:name="com.rncommetchat.MainApplication"
+29-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:7:7-38
+30        android:allowBackup="false"
+30-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:11:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] /home/novelty/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:9:7-41
+34        android:label="@string/app_name"
+34-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:8:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:10:7-52
+36        android:supportsRtl="true"
+36-->[com.cometchat:pro-android-calls-sdk:1.0.5] /home/novelty/.gradle/caches/transforms-2/files-2.1/7509edeac22cf30eb410bd1e8262489d/pro-android-calls-sdk-1.0.5/AndroidManifest.xml:30:9-35
+37        android:theme="@style/AppTheme"
+37-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:12:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/debug/AndroidManifest.xml:7:18-53
+39        <activity
+39-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:13:7-23:18
+40            android:name="com.rncommetchat.MainActivity"
+40-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:14:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:16:9-86
+42            android:label="@string/app_name"
+42-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:15:9-41
+43            android:launchMode="singleTask"
+43-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:17:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:18:9-51
+45            <intent-filter>
+45-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:19:9-22:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:20:13-65
+46-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:20:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:21:13-73
+48-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:21:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+51-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:24:7-84
+51-->/home/novelty/programming/my-project/RNCommetChat/android/app/src/main/AndroidManifest.xml:24:17-81
+52    </application>
+53
+54</manifest>
