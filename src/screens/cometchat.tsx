@@ -2,8 +2,8 @@ import React from 'react';
 import {View, Text} from 'react-native';
 import {CometChat} from '@cometchat-pro/react-native-chat';
 
-export default function VideoCall() {
-  let sessionID = 'superhero4';
+export default function VideoCall({sessionID}:{sessionID:any}) {
+
   let deafaultLayout = true;
   // const terminateCall = () => {
   //   CometChat.endCall('SESSION_ID_FOR_THE_CALL').then(

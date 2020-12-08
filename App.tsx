@@ -1,10 +1,13 @@
 import React, {useEffect} from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text , Button , TextInput} from 'react-native';
 import VideoCall from './src/screens/cometchat';
 import keys from './keys';
 import {CometChat} from '@cometchat-pro/react-native-chat';
 
 const App = () => {
+  const [joinCall , setJoinCall] = React.useState(false);
+  const [sessionId , setSessionId] = React.useState('');
+
   const cometChatLogin = () => {
     CometChat.login('superhero4', keys.AUTH_KEY).then(
       (User) => {
@@ -19,6 +22,7 @@ const App = () => {
       },
     );
   };
+  let sessionID = 'superhero4';
   useEffect(() => {
     const appSetting = new CometChat.AppSettingsBuilder()
       .subscribePresenceForAllUsers()
@@ -54,10 +58,28 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      <VideoCall />
-    </>
-  );
+    <View>
+   {
+     !joinCall &&  <Button title="Start a Call" onPress={()=>{
+      setSessionId('superhero4');
+      setJoinCall(true)
+    }}/>
+   }
+    {
+      joinCall &&   <View>
+      <TextInput placeholder="Enter invite id" onChangeText={(val)=>{
+        setSessionId(val)
+      }}/>
+      <Button title="Join a call" onPress={()=>{
+        setJoinCall(true);
+      }}/>
+  </View>
+    }
+        {
+          joinCall && <VideoCall sessionID={sessionID} />
+        }
+     </View>
+    );
 };
 
 const styles = StyleSheet.create({});
